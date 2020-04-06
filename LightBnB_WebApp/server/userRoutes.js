@@ -1,3 +1,6 @@
+const database = require('./database');
+
+
 const bcrypt = require('bcrypt');
 
 module.exports = function(router, database) {
